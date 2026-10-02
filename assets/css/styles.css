@@ -224,6 +224,11 @@ ul { padding-left: 1.2em; }
 .ph--wide { aspect-ratio: 16 / 9; }
 .ph--square { aspect-ratio: 1; }
 .ph--portrait { aspect-ratio: 4 / 5; }
+.portrait-img {
+  display: block; width: 100%; max-width: 420px; height: auto; margin-inline: auto;
+  aspect-ratio: 4 / 5; object-fit: cover; object-position: 35% 25%;
+  border-radius: var(--radius-lg);
+}
 
 /* ---------- Hero ---------- */
 .hero {
