@@ -1,0 +1,7 @@
+wrangler.jsonc
+.assetsignore
+CLAUDE.md
+README.md
+.git
+.wrangler
+node_modules
