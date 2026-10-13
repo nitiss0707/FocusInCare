@@ -62,7 +62,8 @@ nothing was missed with a search afterwards.
 - Always include meaningful `alt` text that describes the photo, in the page's language, and
   `width`/`height` attributes. Use `loading="lazy"` for images below the first screen.
 - Placeholders are `<div class="ph">` blocks. Replace the whole block with an `<img>`.
-- `assets/img/wanda-nitiss.jpg` is a temporary photo; it will be replaced with a business photo.
+- The About pages (`about.html`, `es/nosotros.html`) use `assets/img/portrait-placeholder.svg` until a
+  business photo of Wanda is ready.
 - Don't use photos of identifiable people other than the business owner's own staff and
   clients who have approved, and never use stock or internet photos without permission.
 
