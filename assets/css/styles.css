@@ -224,6 +224,17 @@ ul { padding-left: 1.2em; }
 .ph--wide { aspect-ratio: 16 / 9; }
 .ph--square { aspect-ratio: 1; }
 .ph--portrait { aspect-ratio: 4 / 5; }
+.ph--silhouette { width: 100%; max-width: 420px; margin-inline: auto; overflow: hidden; color: var(--violet-500); }
+.ph--silhouette::before { display: none; }
+.ph--silhouette::after {
+  content: "";
+  position: absolute; left: 50%; bottom: 0; transform: translateX(-50%);
+  width: 70%; height: 82%;
+  background:
+    radial-gradient(ellipse 21% 15% at 50% 30%, currentColor 98%, transparent 100%),
+    radial-gradient(ellipse 50% 100% at 50% 100%, currentColor 98%, transparent 100%) 0 100% / 100% 50% no-repeat;
+  opacity: .35;
+}
 .portrait-img {
   display: block; width: 100%; max-width: 420px; height: auto; margin-inline: auto;
   aspect-ratio: 4 / 5; object-fit: cover; object-position: 35% 25%;
